@@ -1,0 +1,150 @@
+body {
+  background-color: #141519;
+  font-family: system-ui;
+}
+
+.holder {
+  background-color: #212832;
+  padding: 20px;
+  width: 271px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 26px;
+  box-shadow: -5px 5px 6px 0px #00000059;
+}
+
+.holder i {
+  background-color: #262f38;
+  padding: 10px;
+  border-radius: 50%;
+  color: #fc7613;
+}
+
+.holder .text h2 {
+  margin: 20px 0 0;
+  color: white;
+}
+
+.holder .text p {
+  margin: 17px 0;
+  color: #bfbfbf;
+  margin: 11px 0 20px;
+  color: #bfbfbf;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.holder ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.holder ul li {
+  list-style: none;
+  padding: 11px 17px;
+  margin-left: 10px;
+  background-color: #262f38;
+  border-radius: 50%;
+  color: #bfbfb5;
+  cursor: pointer;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.holder ul li:hover {
+  background-color: #7e8796;
+  color: white;
+}
+
+.holder .submit {
+  background-color: #fc7613;
+  text-align: center;
+  margin: 16px 0 0;
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  white-space: nowrap;
+}
+
+.holder .submit:hover {
+  background-color: #ffffff;
+  color: #fc7613;
+}
+
+.orange {
+  background-color: #fc7613 !important;
+  color: white !important;
+}
+
+.holder h5 {
+  margin: 11px 0 0;
+  font-size: 11px;
+  text-align: center;
+  color: red;
+  font-weight: normal;
+  display: none;
+}
+
+.parent {
+  background-color: #212832;
+  padding: 20px;
+  width: 258px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 26px;
+  text-align: center;
+  display: none;
+  box-shadow: -5px 5px 6px 0px #00000059;
+}
+
+.parent img {
+  max-width: 100%;
+  width: 144px;
+}
+
+.parent h4 {
+  padding: 5px 22px;
+  border-radius: 50px;
+  background: #232f3d;
+  width: fit-content;
+  margin: auto;
+  font-size: 12px;
+  color: #fc7613;
+  letter-spacing: 0.7px;
+  font-weight: normal;
+}
+
+.parent .text {
+  margin-top: 12px;
+}
+
+.parent .text h2 {
+  margin: 0;
+  font-size: 20px;
+  color: white;
+}
+
+.parent .text p {
+  margin: 8px 0 0;
+  color: #777;
+  font-size: 13px;
+  line-height: 1.4;
+}
